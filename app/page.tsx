@@ -92,11 +92,7 @@ export default function Home() {
                     onMouseEnter={() => setHoveredKey(geo.rsmKey)}
                     onMouseLeave={() => setHoveredKey(null)}
                     onClick={() => handleClick(geo.id as string, geo.rsmKey)}
-                    style={{
-                      default: { outline: "none", cursor: "pointer" },
-                      hover: { outline: "none", cursor: "pointer" },
-                      pressed: { outline: "none" },
-                    }}
+                    style={{ outline: "none", cursor: "pointer" }}
                   />
                 )
               })
